@@ -108,7 +108,7 @@ const static NSUInteger MMScrollIndicatorTag = 12345;
             _spreadsheetHeaderConfiguration = MMSpreadsheetHeaderConfigurationBoth;
         }
         self.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-        self.backgroundColor = [UIColor grayColor];
+        self.backgroundColor = [UIColor blueColor];
         [self setupSubviews];
     }
     return self;
